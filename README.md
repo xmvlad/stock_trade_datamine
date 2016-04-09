@@ -11,7 +11,7 @@ Although perfomance is quiet good on various assets, model is not tradeabel at l
 # Description
 Compute different factors based on 1-minute candle data. For example, various technical indicators like RSI, ADX, MA, candle stick patterns Doji, Three in rows, etc.
 Cubic polynomial fitted with sliding window, and it coeeficients used as prediction factors.
-Model is quiet simple, it use shallow(i.e ~100 trees) Random Forest model with 30 minute price delta as target for prediction
+Model is quiet simple, it use shallow(i.e ~100 trees) Random Forest model with 15 minute price delta as target for prediction
 
 ./img folder contains train/test dataset perfomance metricks for various Stocks/Features trader on MOEX (Moskow Stock Exchange)
 
