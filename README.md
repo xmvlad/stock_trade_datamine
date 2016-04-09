@@ -10,12 +10,12 @@ Although perfomance is quiet good on various assets, model is not tradeabel at l
 
 # Description
 Compute different factors based on 1-minute candle data. For example, various technical indicators like RSI, ADX, MA, candle stick patterns Doji, Three in rows, etc.
-Cubic polynomial fitted with sliding window, and it coeeficients used as predcition factors.
+Cubic polynomial fitted with sliding window, and it coeeficients used as prediction factors.
 Model is quiet simple, it use shallow(i.e ~100 trees) Random Forest model with 30 minute price delta as target for prediction
 
 ./img folder contains train/test dataset perfomance metricks for various Stocks/Features trader on MOEX (Moskow Stock Exchange)
 
 # Build/Run 
 To reproduce results, unpack import data in ./import/candle, then build mainapp via CMake and run it ./bin/mainapp to produce training and test data from candles. 
-Than run prediction model at ./src/python/predict_grbt.py
+Then run prediction model at ./src/python/predict_grbt.py
 
